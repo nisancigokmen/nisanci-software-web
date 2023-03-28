@@ -78,6 +78,28 @@
 
 /*---project style---*/
 
+.texh-1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.texh-1 ul li {
+  list-style: none;
+}
+
+.texh-2 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texh-2 ul li {
+  list-style: none;
+}
+
+#infos-tech {
+  width: 100%;
+  height: auto;
+}
+
 #project-ınfos {
   width: 100%;
   height: auto;
@@ -681,7 +703,7 @@ ul {
   display: none;
 }
 
-.containers-page a{
+.containers-page a {
   text-decoration: none;
   color: #666;
 }
@@ -707,14 +729,11 @@ ul {
   height: auto;
   text-align: center;
   background-color: #037cb4;
-
 }
 
 /*----------------MOBILE DESIGN----------------*/
 
 @media only screen and (max-width: 960px) {
-
-  
   .header_menu_item {
     display: none;
   }
@@ -722,20 +741,4 @@ ul {
   .contact_btn {
     display: none;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
