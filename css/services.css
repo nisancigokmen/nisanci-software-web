@@ -3,7 +3,10 @@
   padding: 0px;
 }
 
-
+.containers-page a{
+  text-decoration: none;
+  color: #666;
+}
 /*-------DESKTOP DESIGN---------*/
 
 

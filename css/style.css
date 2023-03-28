@@ -681,6 +681,10 @@ ul {
   display: none;
 }
 
+.containers-page a{
+  text-decoration: none;
+  color: #666;
+}
 /* responsive css for larger screeens */
 
 @media (min-width: 700px) {
