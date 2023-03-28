@@ -2,13 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
-.containers-page a{
+.containers-page a {
   text-decoration: none;
   color: #666;
 }
 
 /*-------DESKTOP DESIGN---------*/
-
 
 #header {
   display: flex;
@@ -79,41 +78,39 @@
 
 /*---project style---*/
 
-.texh-1 ul{
+.texh-1 ul {
   display: flex;
   justify-content: space-around;
-  }
-  .texh-1 ul li{
+}
+.texh-1 ul li {
   list-style: none;
-  }
-  
-  .texh-2 ul{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .texh-2 ul li{
-    list-style: none;
-  }
-  
-  #infos-tech{
-    width: 100%;
-    height: auto;
-    
-  }
-  
-  
-  #project-ınfos {
-    width: 100%;
-    height: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  
-  #project-ınfos p {
-    font-size: 32px;
-    text-align: center;
-  }
+}
+
+.texh-2 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texh-2 ul li {
+  list-style: none;
+}
+
+#infos-tech {
+  width: 100%;
+  height: auto;
+}
+
+#project-ınfos {
+  width: 100%;
+  height: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+#project-ınfos p {
+  font-size: 32px;
+  text-align: center;
+}
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 body {
   font-family: Open Sans, "Helvetica Neue", "Helvetica", Helvetica, Arial,
@@ -723,15 +720,12 @@ ul {
   }
 }
 
-#company-infos{
+#company-infos {
   width: 100%;
   height: auto;
- text-align: center;
- background-color: #037cb4;
+  text-align: center;
+  background-color: #037cb4;
 }
-
-
-
 
 /*----------------MOBILE DESIGN----------------*/
 
@@ -744,90 +738,116 @@ ul {
     display: none;
   }
 
-  #company-infos{
+  #company-infos {
     display: none;
   }
 
-
-  #sectiontitle p{
-   font-size:  16px;
+  #sectiontitle p {
+    font-size: 16px;
   }
 
+  #about-page p {
+    font-size: 21px;
+  }
 
-#about-page p{
-  font-size: 21px;
-}
+  #about-page .at-work-process-number {
+    font-size: 32px;
+  }
 
-#about-page .at-work-process-number {
-  font-size: 32px;
-}
+  #infos-tech img {
+    width: 410px;
+    height: 96px;
+  }
 
+  .sectiontitle p {
+    font-size: 21px;
+  }
 
+  #sectiontitle p {
+    font-size: 16px;
+  }
 
-#infos-tech img{
-  width: 410px;
-  height: 96px;
-}
+  #projectFacts p {
+    font-size: 21px;
+  }
 
-.sectiontitle p{
+  #project-ınfos .sectiontitle p {
+    font-size: 21px;
+  }
 
-  font-size: 21px;
-}
+  .at-work-process-details span {
+    font-size: 13px;
+    padding-bottom: 12px;
+  }
 
-#sectiontitle p{
-  font-size: 16px;
-}
+  #company-info h1 {
+    font-size: 16px;
+  }
 
+  #private img {
+    width: 72px;
+    height: 72px;
+  }
 
-#projectFacts p{
-  font-size: 21px;
-}
+  #end-page {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+  }
 
-#project-ınfos .sectiontitle p{
-  font-size: 21px;
-} 
+  .end-page-c p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 21px;
+  }
 
+  .end-page-socialmedia {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
 
+  .end-page-socialmedia img {
+    width: 27px;
+    height: 27px;
+  }
 
+  .contact {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .at-work-process-number-text{
+    font-size: 9px;
+  }
+  .at-work-process-details i{
+font-size: 16px;
+  }
+  .contact form input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+  }
 
-.at-work-process-details span {
-font-size: 13px;
-padding-bottom: 12px;
-}
+  .full {
+    width: 92%;
+    padding: 0px;
+    margin: 0px;
+  }
 
+  .texh-1 {
+    display: block;
+  }
 
-#company-info h1{
-  font-size: 16px;
-}
+  #infos-tech ul a li img {
+    width: 96px;
+    height: 64px;
+  }
 
-
-#private img{
-  width: 72px;
-  height: 72px;
-}
-  
-
-#end-page{
-  padding: 0px;
-  margin: 0px;
-  display: block;
-}
-
-.end-page-c p{
-  text-align: center;
-  font-size: 16px;padding-top: 21px;
-
-}
-
-.end-page-socialmedia{
-padding-top: 21px;
-padding-bottom: 21px;}
-
-
-.end-page-socialmedia img{
-  width: 27px;
-  height: 27px;
-
-}
-
+  .texh-2 {
+    display: block;
+  }
 }

@@ -731,6 +731,16 @@ ul {
   background-color: #037cb4;
 }
 
+.burger-mobile-menu {
+  display: none;
+}
+
+#menu-mobıle-ınfs {
+  display: none;
+}
+
+
+
 /*----------------MOBILE DESIGN----------------*/
 
 @media only screen and (max-width: 960px) {
@@ -742,99 +752,281 @@ ul {
     display: none;
   }
 
-  #company-infos{
+  .at-work-process-number-text{
+    font-size: 9px;
+  }
+  .at-work-process-details i{
+font-size: 16px;
+  }
+
+
+
+  #company-infos {
     display: none;
   }
 
-
-  #sectiontitle p{
-   font-size:  16px;
+  #sectiontitle p {
+    font-size: 16px;
   }
 
+  #about-page p {
+    font-size: 21px;
+  }
 
-#about-page p{
-  font-size: 21px;
-}
+  #about-page .at-work-process-number {
+    font-size: 32px;
+  }
 
-#about-page .at-work-process-number {
-  font-size: 32px;
-}
+  #infos-tech img {
+    width: 410px;
+    height: 96px;
+  }
 
+  .sectiontitle p {
+    font-size: 21px;
+  }
 
+  #sectiontitle p {
+    font-size: 16px;
+  }
 
-#infos-tech img{
-  width: 410px;
-  height: 96px;
-}
+  #projectFacts p {
+    font-size: 21px;
+  }
 
-.sectiontitle p{
+  #project-ınfos .sectiontitle p {
+    font-size: 21px;
+  }
 
-  font-size: 21px;
-}
-
-#sectiontitle p{
-  font-size: 16px;
-}
-
-
-#projectFacts p{
-  font-size: 21px;
-}
-
-#project-ınfos .sectiontitle p{
-  font-size: 21px;
-} 
-
-
-
-
-.at-work-process-details span {
-font-size: 13px;
-padding-bottom: 12px;
-}
-
-
-#company-info h1{
-  font-size: 16px;
-}
-
-
-#private img{
-  width: 72px;
-  height: 72px;
-}
   
+  .at-work-process-details span {
+    font-size: 13px;
+    padding-bottom: 12px;
+  }
 
-#end-page{
+  #company-info h1 {
+    font-size: 16px;
+  }
+
+  #private img {
+    width: 72px;
+    height: 72px;
+  }
+
+  #end-page {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+  }
+
+  .end-page-c p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 21px;
+  }
+
+  .end-page-socialmedia {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .end-page-socialmedia img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+
+  .burger-mobile-menu {
+    display: block;
+  }
+
+  .burger-strip-5 div {
+    /* margin: 10px auto; */
+    color: #002435;
+    transition: all 0.65s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .burger:hover .burger-strip-5 div:first-child {
+    transform: translateY(13px) rotate(0deg);
+  }
+  .burger:hover .burger-strip-5 div:nth-child(2) {
+    opacity: 0;
+  }
+  .burger:hover .burger-strip-5 div:last-child {
+    transform: translateY(-13px) rotate(90deg);
+  }
+  .burger:hover .burger-strip-5 {
+    transform: scale(0.7) rotate(45deg);
+    transition: all 0.25s ease 0.05s;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrappers {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 40%;
+    width: 50%;
+    background: #0492d4;
+    transition: all 0.6s ease-in-out;
+  }
+  #active:checked ~ .wrappers {
+    right: 0;
+  }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /*left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /*color: #fff;*/
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid #000;
+    transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .menu-btn:before {
+    transform: translateY(-8px);
+  }
+  .menu-btn:after {
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transition: background 0.6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: #fff;
+  }
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: #fff;
+  }
+  .wrappers ul {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrappers ul li {
+    height: 10%;
+    margin: 15px 0;
+  }
+  .wrappers ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    line-height: 50px;
+    margin: 5px 30px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .wrappers ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+  }
+  .wrappers ul li a:hover:after {
+    transform: scaleY(1);
+  }
+  .wrappers ul li a:hover {
+    color: #1a73e8;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .content {
+    position: absolute;
+
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+
+  #active:checked ~ .wrappers ul li a {
+    opacity: 1;
+  }
+  .wrappers ul li a {
+    transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateX(100px);
+  }
+  #active:checked ~ .wrappers ul li a {
+    transform: none;
+    transition-timing-function: ease, cubic-bezier(0.1, 1.3, 0.3, 1); /* easeOutBackを緩めた感じ */
+    transition-delay: 0.6s;
+    transform: translateX(-100px);
+  }
+
+  .contact{
+    font-size: 15px; padding: 0px;
+    margin: 0px;
+  }
+
+  .contact form input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .full{
+    width: 92%;
   padding: 0px;
   margin: 0px;
-  display: block;
-}
-
-.end-page-c p{
-  text-align: center;
-  font-size: 16px;padding-top: 21px;
-
-}
-
-.end-page-socialmedia{
-padding-top: 21px;
-padding-bottom: 21px;}
-
-
-.end-page-socialmedia img{
-  width: 27px;
-  height: 27px;
-
-}
-
-
-.contact {
-  width: 100%;
-  height: auto;
-
-}
-
+  }
 
 
 }

@@ -740,6 +740,32 @@ ul {
     display: none;
   }
 
+  .contact{
+    font-size: 15px; padding: 0px;
+    margin: 0px;
+  }
+
+  .contact form input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .at-work-process-number-text{
+    font-size: 9px;
+  }
+  .at-work-process-details i{
+font-size: 16px;
+  }
+  .full{
+    width: 92%;
+  padding: 0px;
+  margin: 0px;
+  }
+
   .contact_btn {
     display: none;
   }
