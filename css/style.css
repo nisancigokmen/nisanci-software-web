@@ -741,4 +741,100 @@ ul {
   .contact_btn {
     display: none;
   }
+
+  #company-infos{
+    display: none;
+  }
+
+
+  #sectiontitle p{
+   font-size:  16px;
+  }
+
+
+#about-page p{
+  font-size: 21px;
+}
+
+#about-page .at-work-process-number {
+  font-size: 32px;
+}
+
+
+
+#infos-tech img{
+  width: 410px;
+  height: 96px;
+}
+
+.sectiontitle p{
+
+  font-size: 21px;
+}
+
+#sectiontitle p{
+  font-size: 16px;
+}
+
+
+#projectFacts p{
+  font-size: 21px;
+}
+
+#project-ınfos .sectiontitle p{
+  font-size: 21px;
+} 
+
+
+
+
+.at-work-process-details span {
+font-size: 13px;
+padding-bottom: 12px;
+}
+
+
+#company-info h1{
+  font-size: 16px;
+}
+
+
+#private img{
+  width: 72px;
+  height: 72px;
+}
+  
+
+#end-page{
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+.end-page-c p{
+  text-align: center;
+  font-size: 16px;padding-top: 21px;
+
+}
+
+.end-page-socialmedia{
+padding-top: 21px;
+padding-bottom: 21px;}
+
+
+.end-page-socialmedia img{
+  width: 27px;
+  height: 27px;
+
+}
+
+
+.contact {
+  width: 100%;
+  height: auto;
+
+}
+
+
+
 }
